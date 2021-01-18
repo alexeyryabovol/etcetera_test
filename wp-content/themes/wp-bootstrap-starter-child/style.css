@@ -1,0 +1,61 @@
+/**
+ * Theme Name: WP Bootstrap Starter Child
+ * Template: wp-bootstrap-starter
+ */
+@import url('../wp-bootstrap-starter/style.css');
+
+/*Building Page*/
+.apartments{
+    padding-left: 10px;
+}
+.apartment,
+.apartment-item{
+    display: flex;
+    margin-bottom: 50px;
+}
+.apartment:last-child,
+.apartment-item:last-child{
+    margin-bottom: 0;
+}
+.apartment-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apartment-img img{
+    width: 275px;
+    height: 168px;
+    object-fit: cover;
+}
+.apartment-right,
+.apartment-desc{
+    padding-left: 15px;    
+}
+.apartment-right h3,
+.apartment-desc h3,
+.apartment-desc p{
+    margin: 0 0 10px;
+}
+
+/*Filter*/
+#house-filter-submit{
+    display: block;
+    margin-top: 25px;
+}
+#house-filter-output{
+    margin-top: 20px;
+}
+.apartments-pagination{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.apartments-pagination a{    
+    color: #212529;
+}
+.apartments-pagination a:hover{
+    text-decoration: none;
+}
